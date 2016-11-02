@@ -6,7 +6,6 @@
 	</listeners>
 	<test name="Test">
 		<classes>
-			<class name="com.deloitte.AppTest" />
 			<class name="com.deloitte.SampleSauceTest" />
 		</classes>
 	</test> <!-- Test -->
