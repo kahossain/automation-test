@@ -17,7 +17,7 @@ public class SampleSauceTest extends SampleSauceTestBase {
 
         driver.get("http://orion-qa.cbrands.com/");
 		System.out.println("Page Title is " + driver.getTitle());
-		Assert.assertEquals("DeloitteNet - Splash", driver.getTitle());
+		Assert.assertEquals("Constellation Brands", driver.getTitle());
 		driver.quit();
     }
 }
